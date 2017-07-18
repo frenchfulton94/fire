@@ -1,0 +1,75 @@
+
+* {
+	outline: 1px dashed red !important;
+}
+/*
+* {
+	-webkit-box-sizing: border-box;  / *** browser specific prefix *** /
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box; / *** makes the calculation of the element size include both the border and padding, note: margin not included in this size *** /
+}
+*/
+body {
+	font-family: 'Lato', sans-serif;
+	color: #676858;
+	font-weight: 300;
+	background-color: blue;
+}
+p {
+	color: grey;
+	font-size: 12px;
+	font-family: Helvetica;
+}
+img {
+	margin: 10px auto;
+	max-width: 100%;
+}
+embed, object, video {
+	max-width: 100%;
+}
+.my-btn {
+	min-width: 48px;
+	min-height: 48px;
+	cursor: help;
+}
+/*
+div.content {
+	max-width: 948px;
+	background-color: lightpink;
+	border: 1px white solid;
+	padding: 20px;
+	margin: 10px auto;
+	position: relative;
+}
+.banner {
+	background-color: #33bebe;
+	color: white;
+	font-size: 48px;
+	font-family: Helvetica;
+	text-align: center;
+	padding: 20px;
+	margin: 10px;
+}
+div.row {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	padding: 20px;
+	margin: 10px;
+}
+div.screenshot > img {
+	color: orange;
+	max-width: 460px;
+	border: 6px black dotted;
+	margin: 10px;
+	padding: 10px;
+}
+div.description {
+	background-color: yellow;
+	max-width: 705px;
+	padding: 10px;
+	margin: 10px;
+}
+*/
