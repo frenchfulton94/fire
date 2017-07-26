@@ -14,13 +14,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	color: #676858;
 	font-weight: 300;
-	background-color: blue;
 	max-width: 100%;
-}
-p {
-	color: grey;
-	font-size: 12px;
-	font-family: Helvetica;
 }
 img {
 	margin: 10px auto;
@@ -33,6 +27,9 @@ embed, object, video {
 	min-width: 48px;
 	min-height: 48px;
 	cursor: help;
+}
+#logo {
+	max-width: 20%;
 }
 /*
 div.content {
@@ -74,3 +71,12 @@ div.description {
 	margin: 10px;
 }
 */
+
+@media screen and (min-width: 500px) {
+	
+}
+@media screen and (max-width: 499px) {
+	.container {
+		padding: 0;
+	}
+}
