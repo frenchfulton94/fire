@@ -1,20 +1,21 @@
-
+/*
 * {
 	outline: 1px dashed red !important;
 }
-/*
+*/
 * {
-	-webkit-box-sizing: border-box;  / *** browser specific prefix *** /
+	-webkit-box-sizing: border-box;  /*** browser specific prefix ***/
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
-	box-sizing: border-box; / *** makes the calculation of the element size include both the border and padding, note: margin not included in this size *** /
+	box-sizing: border-box; /*** makes the calculation of the element size include both the border and padding, note: margin not included in this size ***/
 }
-*/
+
 body {
 	font-family: 'Lato', sans-serif;
 	color: #676858;
 	font-weight: 300;
 	background-color: blue;
+	max-width: 100%;
 }
 p {
 	color: grey;
